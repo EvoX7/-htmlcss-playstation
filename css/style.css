@@ -109,11 +109,8 @@
   .ms_opacity {
     opacity: 0.7;
   }
-  
-  /*  4. PS5 Showcase  */
-  
-  /* 5. It takes two  */
-  
+
+ /* 5. It Takes Two */
   .ms_jumbo_2 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-repeat: no-repeat;
@@ -121,6 +118,15 @@
     background-position: center;
     height: 700px;
   }
+  
+ /* 6. Games store  */
+ .ms_section_6 {
+     background-color: #1f1f1f;
+     
+
+ }
+  
+  
   
   /* Layout MD  */
   @media all and (max-width: 768px) {
