@@ -2,108 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Playstation</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Playstation</title>
 </head>
 
 <body>
-    <!-- Top banner  -->
-    <header>
-        <div class=" container logo-sony d-flex">
-            <img src="./img/sony_logo.svg" alt="sony-logo">
+  <!-- Top banner  -->
+  <header>
+    <div class=" container logo-sony d-flex">
+      <img src="./img/sony_logo.svg" alt="sony-logo">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./img/play_logo.svg" alt="play-logo"></a>
+        <button class="navbar-toggler" type="button">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Left navbar  -->
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giochi<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hardware<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servizi<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Novit&#224;<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fai acquisti<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Supporto<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+          </ul>
+
+          <!-- Right navbar  -->
+          <ul class="navbar-nav me-6 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">My playstation<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
+            </li>
+            <button type="button" class="fw-bold btn btn-dark rounded-pill ms-3 me-4 pb-2">
+              Accedi
+            </button>
+            <span class="input-group-text bg-white border-0" id="search-addon">
+              <a class="a-b" href="#"><i class="fas fa-search"></i></a>
+            </span>
+          </ul>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="./img/play_logo.svg" alt="play-logo"></a>
-                <button class="navbar-toggler" type="button">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <!-- Left navbar  -->
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Giochi<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hardware<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Servizi<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Novit&#224;<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fai acquisti<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Supporto<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                    </ul>
+      </div>
+    </nav>
 
-                    <!-- Right navbar  -->
-                    <ul class="navbar-nav me-6 mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">My playstation<span><img class="arrows ms-2" src="./img/chevron-down-solid.svg" alt=""></span></a> 
-                        </li>
-                        <button type="button" class="fw-bold btn btn-dark rounded-pill ms-3 me-4 pb-2">
-                            Accedi
-                        </button>
-                        <span class="input-group-text bg-white border-0" id="search-addon">
-                            <a class="a-b" href="#"><i class="fas fa-search"></i></a>
-                        </span>
-                    </ul>
+  </header>
+
+  <main>
+
+    <!-- Jumbo banner  -->
+    <section class="d-flex ms_jumbo mt-1">
+      <div class="container d-flex align-items-end ms-5 ">
+        <div class="row">
+          <div class="col-lg-6 col-md-11 col-sm-11 col-10">
+            <img class="img_size_1 mb-2" src="./img/returnal-hero-banner-logo.png" alt="returnal">
+
+            <h1 class="text_color_1 fw-bold mt-3 mc_h1 ">Rompi il cerchio</h1>
+
+            <p class="text_color_1 mt-4  fs-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con
+              ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su
+              PS5.</p>
+
+            <button type="button" class="btn ms_btn btn-danger fw-bold rounded-pill mb-5 pb-2">Acquista
+              ora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ms_section">
+
+      <!-- Gallery  -->
+      <div class="container-fluid p-4 mb-4">
+        <div class="row">
+          <div class="col-12 ">
+            <div class="row">
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class="w-100 rounded-4 mt-3" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
                 </div>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class="w-100 rounded-4 mt-3" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet">
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class="w-100 rounded-4 mt-3" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class="w-100 rounded-4 mt-3" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet">
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class="w-100 rounded-4 mt-3" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal">
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                <div class="overlay">
+                  <img class=" w-100 rounded-4 mt-3 " src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet">
+                </div>
+              </div>
+
             </div>
-        </nav>
+          </div>
+        </div>
+      </div>
 
-    </header>
+    </section>
+  </main>
 
-    <main>
-        <!-- Jumbo banner  -->
-        <section class=" row ms_jumbo mt-1">
-            <div class="container d-flex align-items-end ms-5 ">
-                <div class="row">
-                    <div class="col-lg-4 col-md-11 col-sm-11 col-10">
-                        <img class="img_size_1 mb-2" src="./img/returnal-hero-banner-logo.png" alt="returnal">
-                        
-                        <h1 class="text_color_1 fw-bold mt-3 mc_h1 ">Rompi il cerchio</h1>
+  <!-- Footer  -->
+  <footer>
 
+  </footer>
 
-                        <p class="text_color_1 mt-4  fs-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-
-                        <button type="button" class="btn ms_btn btn-danger fw-bold rounded-pill mb-5 pb-2">Acquista ora</button>
-                    </div>
-                </div>
-                
-
-        </section>
-    </main>
-
-
-    <!-- Footer  -->
-    <footer>
-
-    </footer>
-
-    <!-- Javascript  -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+  <!-- Javascript  -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
