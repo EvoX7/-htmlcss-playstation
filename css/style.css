@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
   /* Top banner  */
   header {
     background-color: black;
@@ -48,7 +52,9 @@
     height: 15px;
   }
   
-  /* jumbo banner  */
+  /* 1. Section  */
+  
+  /* Jumbo banner  */
   .ms_jumbo {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
@@ -65,11 +71,12 @@
     color: white;
     font-size: 40px;
   }
+  
   .text_color_1 {
     color: white;
   }
   
-  /* Second section  */
+  /* 2. section  */
   
   .ms_section {
     background-color: white;
@@ -80,13 +87,45 @@
     border-radius: 40px;
   }
   
+  /* 3. Section  */
+  .ms_section-3 {
+    background-color: white;
+  }
+  
+  .ms_h6 {
+    color: #0474cc;
+    font-weight: bold;
+  }
+  
+  .ms_h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  /*  3. PS5 claim  */
+  
+  /* .ms_overlay {} */
+  
+  .ms_opacity {
+    opacity: 0.7;
+  }
+  
+  /*  4. PS5 Showcase  */
+  
+  /* 5. It takes two  */
+  
+  .ms_jumbo_2 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }
+  
   /* Layout MD  */
   @media all and (max-width: 768px) {
     .img_size_1 {
       width: 60%;
-    }
-  
-    .ms_gallery {
     }
   }
   
@@ -95,8 +134,5 @@
     .img_size_1 {
       width: 60%;
     }
-  }
-  
-  @media all and (min-width: 992px) {
   }
   
