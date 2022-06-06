@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+    
+
+/* Top banner  */
+header {
+    background-color: black;
+}
+
+/* Logo  */
+.logo-sony {
+    width: 90px;
+    height: 40px;
+    
+}
+
+.navbar {
+    background-color: white;
+    
+}
+
+.navbar-nav {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Buttons  */
+.a-b {
+    color: black;
+}
+
+.ms_btn {
+    border-style: inset;
+    border: 1px solid orangered;
+
+}
+
+.ms_btn:hover {
+    border-style: inset;
+    border: 1px solid yellow;
+}
+
+.arrows {
+    width: 15px;
+    height: 15px;
+    
+}
+
+ 
+/* jumbo banner  */
+.ms_jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.img_size_1 {
+    width:250px;
+    
+}
+
+.mc_h1 {
+    color: white;
+    font-size: 40px;
+
+}
+.text_color_1 {
+    color: white;
+    
+
+}
