@@ -8,13 +8,18 @@
 /* Top banner  */
 header {
     background-color: black;
+    
 }
 
 /* Logo  */
 .logo-sony {
     width: 90px;
     height: 40px;
-    
+
+}
+
+nav {
+    position: fixed;
 }
 
 .navbar {
@@ -46,7 +51,7 @@ header {
 .arrows {
     width: 15px;
     height: 15px;
-    
+
 }
 
  
@@ -55,12 +60,27 @@ header {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 700px;
 }
 
 .img_size_1 {
     width:250px;
     
+}
+
+@media all and (max-width:768px) {
+    .img_size_1 {
+        width:60%;
+        
+    }
+}
+
+@media all and (max-width:576px) {
+    .img_size_1 {
+        width:60%;
+        
+    }
 }
 
 .mc_h1 {
