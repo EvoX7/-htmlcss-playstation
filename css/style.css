@@ -17,8 +17,6 @@ header {
 .logo-sony {
   width: 90px;
   height: 40px;
- 
-  
 }
 
 nav {
@@ -139,11 +137,14 @@ nav {
 /* 8. Playstation Plus  */
 .ms_section_8 {
   background-color: #bebcbb;
-  height: 400px;
 }
 
 .resize-icons {
   vertical-align: top;
+}
+
+.plus_logo {
+  width: 80%;
 }
 
 .ps_plus_btn {
@@ -156,7 +157,6 @@ nav {
 /* 10. PlayStation Now  */
 .ms_section_10 {
   background-color: #161c3b;
-  height: 300px;
 }
 
 /* 11. Social Media  */
@@ -171,10 +171,14 @@ nav {
   height: 80px;
 }
 
-/* Layout XL  */
-@media all and (min-width: 1200px) {
-  .socials {
-    width: 70%;
+/* Layout SM  */
+@media all and (max-width: 576px) {
+  .img_size_1 {
+    width: 60%;
+  }
+
+  .plus_logo {
+    width: 50%;
   }
 }
 
@@ -186,15 +190,12 @@ nav {
 
   .list-unstyled {
     padding: 20px;
-    
-
   }
 }
 
-/* Layout SM  */
-@media all and (max-width: 576px) {
-  .img_size_1 {
-    width: 60%;
+@media all and (max-width: 991px) {
+  .accessories {
+    padding-top: 40px;
   }
 }
 
@@ -202,5 +203,12 @@ nav {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .socials {
     width: 80%;
+  }
+}
+
+/* Layout XL  */
+@media all and (min-width: 1200px) {
+  .socials {
+    width: 70%;
   }
 }
