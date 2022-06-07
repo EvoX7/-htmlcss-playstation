@@ -1,144 +1,153 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Top banner  */
-  header {
-    background-color: black;
-  }
-  
-  /* Logo  */
-  .logo-sony {
-    width: 90px;
-    height: 40px;
-  }
-  
-  nav {
-    position: fixed;
-  }
-  
-  .navbar {
-    background-color: white;
-  }
-  
-  .navbar-nav {
-    font-size: 17px;
-    font-weight: bold;
-  }
-  
-  /* Buttons  */
-  .a-b {
-    color: black;
-  }
-  
-  .ms_btn {
-    border-style: inset;
-    border: 1px solid orangered;
-  }
-  
-  .ms_btn:hover {
-    border-style: inset;
-    border: 1px solid yellow;
-  }
-  
-  .arrows {
-    width: 15px;
-    height: 15px;
-  }
-  
-  /* 1. Section  */
-  
-  /* Jumbo banner  */
-  .ms_jumbo {
-    background-image: url("../img/jumbo-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top banner  */
+header {
+  background-color: black;
+}
+
+/* Logo  */
+.logo-sony {
+  width: 90px;
+  height: 40px;
+}
+
+nav {
+  position: fixed;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Buttons  */
+.a-b {
+  color: black;
+}
+
+.ms_btn {
+  border-style: inset;
+  border: 1px solid orangered;
+}
+
+.ms_btn:hover {
+  border-style: inset;
+  border: 1px solid yellow;
+}
+
+.arrows {
+  width: 15px;
+  height: 15px;
+}
+
+.bord_white {
+  border: 2px solid transparent;
+}
+
+.bord_white:hover {
+  border: 2px solid white;
+}
+
+/* 1. Section  */
+
+/* Jumbo banner  */
+.ms_jumbo {
+  background-image: url("../img/jumbo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.img_size_1 {
+  width: 250px;
+}
+
+.mc_h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.text_color_1 {
+  color: white;
+}
+
+/* 2. section  */
+
+.ms_section {
+  background-color: white;
+}
+
+.gallery_img {
+  padding: 10px;
+  border-radius: 40px;
+}
+
+/* 3. Section  */
+.ms_section-3 {
+  background-color: white;
+}
+
+.ms_h6 {
+  color: #0474cc;
+  font-weight: bold;
+}
+
+.ms_h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*  3. PS5 claim  */
+
+/* .ms_overlay {} */
+
+.ms_opacity {
+  opacity: 0.7;
+}
+
+/* 5. It Takes Two */
+.ms_jumbo_2 {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+/* 6. Games store  */
+.ms_section_6 {
+  background-color: #1f1f1f;
+}
+
+/* 7. PlayStation 4 showcase  */
+
+.resize-icons {
+  vertical-align: top;
+}
+
+/* Layout MD  */
+@media all and (max-width: 768px) {
   .img_size_1 {
-    width: 250px;
+    width: 60%;
   }
-  
-  .mc_h1 {
-    color: white;
-    font-size: 40px;
-  }
-  
-  .text_color_1 {
-    color: white;
-  }
-  
-  /* 2. section  */
-  
-  .ms_section {
-    background-color: white;
-  }
-  
-  .gallery_img {
-    padding: 10px;
-    border-radius: 40px;
-  }
-  
-  /* 3. Section  */
-  .ms_section-3 {
-    background-color: white;
-  }
-  
-  .ms_h6 {
-    color: #0474cc;
-    font-weight: bold;
-  }
-  
-  .ms_h1 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  
-  /*  3. PS5 claim  */
-  
-  /* .ms_overlay {} */
-  
-  .ms_opacity {
-    opacity: 0.7;
-  }
+}
 
- /* 5. It Takes Two */
-  .ms_jumbo_2 {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
+/* Layout SM  */
+@media all and (max-width: 576px) {
+  .img_size_1 {
+    width: 60%;
   }
-  
- /* 6. Games store  */
- .ms_section_6 {
-     background-color: #1f1f1f;
-     
-
- }
-  
-  
-  
-  /* Layout MD  */
-  @media all and (max-width: 768px) {
-    .img_size_1 {
-      width: 60%;
-    }
-  }
-  
-  /* Layout SM  */
-  @media all and (max-width: 576px) {
-    .img_size_1 {
-      width: 60%;
-    }
-  }
-  
+}
