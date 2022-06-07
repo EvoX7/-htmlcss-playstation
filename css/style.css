@@ -134,9 +134,22 @@ nav {
 
 /* 7. PlayStation 4 showcase  */
 
+/* 8. Playstation Plus  */
+.ms_section_8 {
+  background-color: #bebcbb;
+  height: 400px;
+}
+
 .resize-icons {
   vertical-align: top;
 }
+
+.ps_plus_btn {
+  background-color: #e3e3e3;
+  color: #386be4;
+}
+
+/* 9. Sale  */
 
 /* Layout MD  */
 @media all and (max-width: 768px) {
