@@ -151,6 +151,31 @@ nav {
 
 /* 9. Sale  */
 
+/* 10. PlayStation Now  */
+.ms_section_10 {
+  background-color: #161c3b;
+  height: 300px;
+}
+
+/* 11. Social Media  */
+
+/* Footer  */
+.ms_footer {
+  background-color: #00439c;
+}
+
+.ps_footer {
+  width: 140px;
+  height: 80px;
+}
+
+/* Layout XL  */
+@media all and (min-width: 1200px) {
+  .socials {
+    width: 70%;
+  }
+}
+
 /* Layout MD  */
 @media all and (max-width: 768px) {
   .img_size_1 {
@@ -162,5 +187,12 @@ nav {
 @media all and (max-width: 576px) {
   .img_size_1 {
     width: 60%;
+  }
+}
+
+/* From Large to XL  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .socials {
+    width: 80%;
   }
 }
