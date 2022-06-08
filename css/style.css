@@ -57,6 +57,7 @@ nav {
 }
 
 .bord_white:hover {
+  border-style: inset;
   border: 2px solid white;
 }
 
@@ -196,6 +197,18 @@ nav {
 @media all and (max-width: 991px) {
   .accessories {
     padding-top: 40px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+  .accs {
+    width: 60%;
+  }
+}
+
+@media (min-width: 890px) and (max-width: 1600px) {
+  .accs {
+    width: 70%;
   }
 }
 
