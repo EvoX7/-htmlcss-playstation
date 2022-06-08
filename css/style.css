@@ -32,6 +32,11 @@ nav {
   font-weight: bold;
 }
 
+.fa-circle {
+  font-size: 7px;
+  color: #0474cc;
+}
+
 /* Buttons  */
 .a-b {
   color: black;
@@ -111,9 +116,20 @@ nav {
   font-weight: bold;
 }
 
+
+.overlay_up {
+  transition: 0.2s ease-in;
+}
+
+.overlay_up:hover {
+  transform: translatey(-20px);
+  cursor: pointer;
+}
+
+
 /*  3. PS5 claim  */
 
-/* .ms_overlay {} */
+
 
 .ms_opacity {
   opacity: 0.7;
