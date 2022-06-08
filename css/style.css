@@ -11,16 +11,22 @@ body {
 /* Top banner  */
 header {
   background-color: black;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+main {
+  margin-top: 100px;
+  overflow-x: hidden;
 }
 
 /* Logo  */
 .logo-sony {
   width: 90px;
   height: 40px;
-}
-
-nav {
-  position: fixed;
 }
 
 .a-hover:hover {
@@ -77,23 +83,33 @@ ul.dropdown-menu li {
   border: 2px solid transparent;
 }
 
+.ms_btn-hover-white {
+  border: 2px solid transparent;
+}
+
 .ms_btn-hover-bw:hover {
   box-shadow: 0 0 0 2px black;
   border: 2px solid white;
 }
 
 .ms_btn-hover-bw-int:hover {
-  box-shadow: 0 0 0 2px rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .ms_btn-hover-red:hover {
   box-shadow: 0 0 0 2px rgb(195, 71, 71);
   border: 2px solid black;
+  cursor: pointer;
 }
 
 .ms_btn-hover-grey:hover {
   box-shadow: 0 0 0 2px rgb(200, 200, 200);
   border: 2px solid #386be4;
+}
+
+.ms_btn-hover-white:hover {
+  border: 2px solid white;
+  cursor: pointer;
 }
 
 /* 1. Section  */
@@ -151,7 +167,7 @@ ul.dropdown-menu li {
 }
 
 .overlay_up:hover {
-  transform: translatey(-20px);
+  transform: translatey(-15px);
   cursor: pointer;
 }
 
@@ -159,7 +175,13 @@ ul.dropdown-menu li {
 
 /* 4. PS5 Showcase  */
 
+.ms_overlay {
+  opacity: 0.7;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
 .ms_overlay:hover {
+  opacity: 1;
   border-bottom: 3px solid #386be4;
   cursor: pointer;
 }
@@ -197,6 +219,15 @@ ul.dropdown-menu li {
   background-color: #e3e3e3;
   color: #386be4;
 }
+.ps_now_btn {
+  background-color: #e3e3e3;
+  color: black;
+}
+.ps_now_btn:hover {
+  background-color: #e3e3e3;
+  color: black;
+}
+
 .ps_plus_btn:hover {
   background-color: #e3e3e3;
   color: #386be4;
@@ -230,6 +261,13 @@ ul.dropdown-menu li {
   .plus_logo {
     width: 50%;
   }
+ 
+
+  .fa-magnifying-glass {
+    position: absolute;
+    bottom: 68px;
+    left: 180px;
+  }
 }
 
 /* Layout MD  */
@@ -245,6 +283,12 @@ ul.dropdown-menu li {
     position: absolute;
     width: 100%;
   }
+  .fa-magnifying-glass {
+    position: absolute;
+    bottom: 68px;
+    left: 180px;
+  }
+
 }
 
 @media all and (max-width: 991px) {
