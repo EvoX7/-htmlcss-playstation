@@ -23,6 +23,10 @@ nav {
   position: fixed;
 }
 
+.a-hover:hover {
+  color: #0474cc;
+}
+
 .navbar {
   background-color: white;
 }
@@ -39,6 +43,7 @@ ul.dropdown-menu li {
 .fa-circle {
   font-size: 7px;
   color: #0474cc;
+  vertical-align: auto;
 }
 
 .dropdown-menu {
@@ -79,7 +84,6 @@ ul.dropdown-menu li {
 
 .ms_btn-hover-bw-int:hover {
   box-shadow: 0 0 0 2px rgb(0, 0, 0);
-  
 }
 
 .ms_btn-hover-red:hover {
@@ -90,10 +94,7 @@ ul.dropdown-menu li {
 .ms_btn-hover-grey:hover {
   box-shadow: 0 0 0 2px rgb(200, 200, 200);
   border: 2px solid #386be4;
- 
 }
-
-
 
 /* 1. Section  */
 
@@ -145,7 +146,6 @@ ul.dropdown-menu li {
   font-weight: bold;
 }
 
-
 .overlay_up {
   transition: 0.2s ease-in;
 }
@@ -155,17 +155,13 @@ ul.dropdown-menu li {
   cursor: pointer;
 }
 
-
 /*  3. PS5 claim  */
-
 
 /* 4. PS5 Showcase  */
 
 .ms_overlay:hover {
   border-bottom: 3px solid #386be4;
   cursor: pointer;
-
-
 }
 
 /* 5. It Takes Two */
