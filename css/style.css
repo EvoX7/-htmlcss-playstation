@@ -32,9 +32,18 @@ nav {
   font-weight: bold;
 }
 
+ul.dropdown-menu li {
+  display: inline-block;
+}
+
 .fa-circle {
   font-size: 7px;
   color: #0474cc;
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 100%;
 }
 
 /* Buttons  */
@@ -42,29 +51,49 @@ nav {
   color: black;
 }
 
-.ms_btn {
-  border-style: inset;
-  border: 1px solid orangered;
-}
-
-.ms_btn:hover {
-  border-style: inset;
-  border: 1px solid orangered;
-}
-
 .arrows {
   width: 15px;
   height: 15px;
 }
 
-.bord_white {
+/* Buttons hover */
+.ms_btn-hover-bw {
   border: 2px solid transparent;
 }
 
-.bord_white:hover {
-  border-style: inset;
+.ms_btn-hover-bw-int {
+  border: 2px solid transparent;
+}
+.ms_btn-hover-red {
+  border: 2px solid transparent;
+}
+
+.ms_btn-hover-grey {
+  border: 2px solid transparent;
+}
+
+.ms_btn-hover-bw:hover {
+  box-shadow: 0 0 0 2px black;
   border: 2px solid white;
 }
+
+.ms_btn-hover-bw-int:hover {
+  box-shadow: 0 0 0 2px rgb(0, 0, 0);
+  
+}
+
+.ms_btn-hover-red:hover {
+  box-shadow: 0 0 0 2px rgb(195, 71, 71);
+  border: 2px solid black;
+}
+
+.ms_btn-hover-grey:hover {
+  box-shadow: 0 0 0 2px rgb(200, 200, 200);
+  border: 2px solid #386be4;
+ 
+}
+
+
 
 /* 1. Section  */
 
@@ -130,9 +159,13 @@ nav {
 /*  3. PS5 claim  */
 
 
+/* 4. PS5 Showcase  */
 
-.ms_opacity {
-  opacity: 0.7;
+.ms_overlay:hover {
+  border-bottom: 3px solid #386be4;
+  cursor: pointer;
+
+
 }
 
 /* 5. It Takes Two */
@@ -165,6 +198,10 @@ nav {
 }
 
 .ps_plus_btn {
+  background-color: #e3e3e3;
+  color: #386be4;
+}
+.ps_plus_btn:hover {
   background-color: #e3e3e3;
   color: #386be4;
 }
@@ -207,6 +244,10 @@ nav {
 
   .list-unstyled {
     padding: 20px;
+  }
+  .dropdown-menu {
+    position: absolute;
+    width: 100%;
   }
 }
 
